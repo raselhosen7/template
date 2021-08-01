@@ -1,0 +1,139 @@
+*{
+	box-sizing: border-box
+
+}
+
+
+
+/*global style*/
+body{
+	margin: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.text-center{
+	text-align: center;
+	border-radius: 6px;
+}
+.banner{
+	padding: 0px 0;
+
+}
+
+.container{
+	max-width: 1170px;
+	margin: auto;
+	border: 2px solid #dedede;
+	border-radius: 10px;
+	padding: 0px;
+}
+
+
+.clearfix{
+	clear: both;
+}
+
+/*global style end^*/
+
+
+/*banner style*/
+
+
+/*grid styles*/
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+	height: 50px;
+}
+.col-4{
+	width: 25%;
+	float: left;
+	padding: 0 0px;
+	margin: 0;
+}
+
+
+
+
+/*grid styles end*/
+
+
+/*header style*/
+.logo{
+	float: left;
+}
+
+
+
+.userarea{
+	float: right;
+	padding-top: 30px;
+}
+
+.userarea a{
+
+}
+
+
+.userarea a{
+	display: inline-block;
+	padding: 0 15px;
+	background-color: blue;
+	line-height: 40px;
+	color: black;
+	font-family: sans-serif;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: all .20s;
+}
+
+
+.userarea a:hover{
+	background-color: black;
+	color: white;
+	padding: 15px;
+}
+
+/*header end*/
+
+/*menu style*/
+
+.menu{
+	width: 100%;
+	display: inline-block;
+	background-color: gray;
+	border-radius: 10px;
+}
+.menu ul{
+	padding:0px;
+	margin: 0px;
+}
+.menu li{
+	float: left;
+	list-style: none;
+}
+.menu li a{
+	display: inline-block;
+	line-height: 40px;
+	padding: 0 15px;
+	text-decoration: none;
+	color: white;
+	transition: all .25s;
+}
+.menu li a:hover{
+	background-color: blue;
+	color: black;
+	border-radius: 5px;
+
+}
+
+article{
+	margin: 15px;
+}
+/*menu style end*/
+
+.copyright{
+	background-color: gray;
+	padding: 15px;
